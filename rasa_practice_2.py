@@ -32,7 +32,7 @@ tokens = ['How']
 data1_intents = ['expected_hospitalization_in_data1','select_data1']
 
 data2_intents = ['top']
-
+print(data2_intents)
 question_intents = data1_intents + data2_intents
 
 if intent_name in data2_intents:
